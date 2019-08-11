@@ -3,7 +3,17 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
+const mongoose = require('mongoose');
+
 const app = express();
+
+const dbURI = require('./config/keys').mongoURI;
+
+const db = mongoose.connect(dbURI, { useNewUrlParser: true });
+
+db.then(() => console.log('Success')).catch(err =>
+  console.log(`Error: ${err}`)
+);
 
 app.use(cors());
 app.use(bodyParser.json());
