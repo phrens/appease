@@ -4,7 +4,7 @@ Summarise the main tasks handled in the pull request
 
 **Description of Task to be completed?**
 
-Describe (in detail) what the task completed in the pull 
+Describe (in detail) what the task completed in the pull request
 
 **How should this be manually tested?**
 
