@@ -6,6 +6,7 @@ Summarise the main tasks handled in the pull request
 
 Describe (in detail) what the task completed in the pull request
 
+
 **How should this be manually tested?**
 
 Give bullet point instructions on how to setup the code and test it manually
